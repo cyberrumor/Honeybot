@@ -2,7 +2,9 @@
 # When SMB2.0 recieve a "&" char in the "Process Id High"
 # SMB header field it dies with a
 # PAGE_FAULT_IN_NONPAGED_AREA
-# courtesy of https://github.com/strycore/scripts/blob/master/teardrop-attack
+# courtesy of https://github.com/strycore/scripts/blob/master/teardrop-attack 
+# aka Mathieu Comandon
+# this one is GPL3 License, as stated on the link above. Thanks Mathieu!
 
 import sys
 from socket import socket
